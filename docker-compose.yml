@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  web:
+    image: maxbelial/express-example-study:latest
+    ports:
+      - "8080:8080"
